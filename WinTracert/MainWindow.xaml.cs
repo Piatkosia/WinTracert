@@ -22,6 +22,7 @@ namespace WinTracert
     {
         public MainWindow()
         {
+            //tracert [/d] [/h <MaximumHops>] [/j <Hostlist>] [/w <timeout>] [/R] [/S <Srcaddr>] [/4][/6] <TargetName>
             InitializeComponent();
         }
     }
