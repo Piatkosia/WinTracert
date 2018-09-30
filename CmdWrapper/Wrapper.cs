@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CmdWrapper
 {
-    public class Class1
+    public class Wrapper
     {
+        public const int MaxCommandLength = 8191;
     }
 }

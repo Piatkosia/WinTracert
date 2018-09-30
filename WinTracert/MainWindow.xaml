@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WinTracert"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Yet another tracert UI"  SizeToContent="WidthAndHeight">
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Margin="10">Parameters:</TextBlock>
+        <CheckBox x:Name="paramD" Content="Do not resolve addresses to hostnames." IsChecked="{Binding DParamIsSet}"  Margin ="5"/>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="paramH" Content="Maximum number of hops to search for target: " IsChecked="{Binding HParamIsSet}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin ="5"/>
+            <TextBox MaxLength="5" x:Name="inputH" MinWidth="20" Margin="0,5,5,5" IsEnabled="{Binding HParamIsSet}" Text="{Binding MaxHops}" PreviewTextInput="NumberValidationTextBox"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="paramJ" IsChecked="{Binding JParamIsSet}" Content=" Specifies loose source route along the host-list: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin ="5"/>
+            <Button Content="Set here" x:Name="JParamButton" IsEnabled="{Binding JParamIsSet}" ToolTip="{Binding HostList}" Click="SetHopList" Margin="5"></Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="paramW" Content="Wait timeout milliseconds for each reply: " IsChecked="{Binding WParamIsSet}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin ="5"/>
+            <TextBox MaxLength="5" x:Name="inputW" MinWidth="20" Margin="0,5,5,5" IsEnabled="{Binding WParamIsSet}" Text="{Binding Timeout}" PreviewTextInput="NumberValidationTextBox"></TextBox>
+        </StackPanel>
+        <CheckBox x:Name="paramR" Content="Trace round-trip path." IsChecked="{Binding DParamIsSet}"  Margin ="5"/>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="paramS" Content="Source address to use " IsChecked="{Binding SParamIsSet}" HorizontalAlignment="Left" VerticalAlignment="Top" Margin ="5"/>
+            <TextBox MaxLength="5" x:Name="inputS" MinWidth="20" Margin="0,5,5,5" IsEnabled="{Binding SParamIsSet}" Text="{Binding SrcAddr}"></TextBox>
+        </StackPanel>
+        <CheckBox x:Name="param4" Content="Force using IPv4" IsChecked="{Binding FourParamIsSet}"  Margin ="5"/>
+        <CheckBox x:Name="param6" Content="Force using IPv6" IsChecked="{Binding SixParamIsSet}"  Margin ="5"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock x:Name="TargetName" Text="Target name: " Margin ="5"/>
+            <TextBox MaxLength="5" x:Name="inputTargetName" MinWidth="100" Margin="0,5,5,5" Text="{Binding TargetName}"></TextBox>
+        </StackPanel>
+        <Button Click="RunCommand"> RUN!</Button>
+    </StackPanel>
 </Window>
