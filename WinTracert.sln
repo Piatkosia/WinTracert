@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTracert", "WinTracert\Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmdWrapper", "CmdWrapper\CmdWrapper.csproj", "{7EC52A92-D9C3-4B86-9BA2-5ABE55989982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChkDump", "ChkDump\ChkDump.csproj", "{28815838-F543-49AA-A3F0-ABD3E78D021F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DJ", "DJ\DJ.csproj", "{18192F12-1710-49F5-A091-2907A8EAF9A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7EC52A92-D9C3-4B86-9BA2-5ABE55989982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EC52A92-D9C3-4B86-9BA2-5ABE55989982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EC52A92-D9C3-4B86-9BA2-5ABE55989982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28815838-F543-49AA-A3F0-ABD3E78D021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28815838-F543-49AA-A3F0-ABD3E78D021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28815838-F543-49AA-A3F0-ABD3E78D021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28815838-F543-49AA-A3F0-ABD3E78D021F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18192F12-1710-49F5-A091-2907A8EAF9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18192F12-1710-49F5-A091-2907A8EAF9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18192F12-1710-49F5-A091-2907A8EAF9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18192F12-1710-49F5-A091-2907A8EAF9A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
