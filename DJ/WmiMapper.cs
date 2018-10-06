@@ -4,7 +4,7 @@ namespace DJ
 {
     public class WmiMapper
     {
-        public List<Disk> GetDisks()
+        public static List<Disk> GetDisks()
         {
             List<Disk> disks = new List<Disk>();
             try
