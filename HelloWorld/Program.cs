@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld
 {
     class Program
     {
         //z tej książki dla grayhatów skubnięte
-
         [DllImport("user32", CharSet = CharSet.Auto)]
         static extern int MessageBox(IntPtr hWnd,
             String text, String caption, int options);

