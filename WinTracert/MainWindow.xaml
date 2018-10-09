@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WinTracert"
         mc:Ignorable="d"
-        Title="Yet another tracert UI" Height="543" >
+        Title="Yet another tracert UI" Height="519" Width="400" ResizeMode="CanMinimize" >
     <StackPanel>
         <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Margin="10">Parameters:</TextBlock>
         <CheckBox x:Name="paramD" Content="Do not resolve addresses to hostnames." IsChecked="{Binding DParamIsSet}"  Margin ="5"/>

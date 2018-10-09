@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brzydal", "Brzydal\Brzydal.csproj", "{564C7459-D3B6-43A7-9D1B-627C11778FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reg", "Reg\Reg.csproj", "{A63A9F4E-E1B2-451F-956A-EA02DAB616B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{564C7459-D3B6-43A7-9D1B-627C11778FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564C7459-D3B6-43A7-9D1B-627C11778FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564C7459-D3B6-43A7-9D1B-627C11778FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63A9F4E-E1B2-451F-956A-EA02DAB616B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63A9F4E-E1B2-451F-956A-EA02DAB616B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63A9F4E-E1B2-451F-956A-EA02DAB616B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63A9F4E-E1B2-451F-956A-EA02DAB616B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
