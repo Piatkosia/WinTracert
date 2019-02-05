@@ -12,13 +12,13 @@ namespace CmdWrapper
         public const int MaxCommandLength = 8191;
         public event EventHandler<IncommingTextEventArgs> OnIncommingText;
         public event EventHandler<EventArgs> Exited;
-        public async Task<int> RunCmdProcess(string filename, string parameters)
+        public async Task<int> RunCmdProcess(string command, string parameters)
         {
             int ExitCode = 0;
             ProcessStartInfo ProcessInfo;
             Process process;
 
-            ProcessInfo = new ProcessStartInfo(filename, parameters);
+            ProcessInfo = new ProcessStartInfo(command, parameters);
             ProcessInfo.CreateNoWindow = true;
             ProcessInfo.UseShellExecute = false;
             ProcessInfo.RedirectStandardOutput = true;
@@ -41,7 +41,7 @@ namespace CmdWrapper
         {
             if (Exited != null)
             {
-                Exited(null, new EventArgs());
+                Exited(sender, new EventArgs());
             }
         }
 
@@ -49,7 +49,7 @@ namespace CmdWrapper
         {
             if (OnIncommingText != null)
             {
-                OnIncommingText(null, new IncommingTextEventArgs(e.Data));
+                OnIncommingText(sender, new IncommingTextEventArgs(e.Data));
             }
         }
     }
