@@ -22,6 +22,8 @@ namespace CmdWrapper
             ProcessInfo.CreateNoWindow = true;
             ProcessInfo.UseShellExecute = false;
             ProcessInfo.RedirectStandardOutput = true;
+            ProcessInfo.RedirectStandardError = true;
+
             if (!string.IsNullOrEmpty(workingDirPath))
             {
                 ProcessInfo.WorkingDirectory = workingDirPath;
@@ -35,8 +37,10 @@ namespace CmdWrapper
                 process.ErrorDataReceived += new DataReceivedEventHandler(OutputHandler);
                 process.Exited += Process_Exited;
                 process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
                 process.WaitForExit();
                 ExitCode = process.ExitCode;
+                process.Dispose();
             }
             return ExitCode;
         }
