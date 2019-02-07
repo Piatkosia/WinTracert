@@ -12,7 +12,7 @@ namespace CmdWrapper
         public const int MaxCommandLength = 8191;
         public event EventHandler<IncommingTextEventArgs> OnIncommingText;
         public event EventHandler<EventArgs> Exited;
-        public async Task<int> RunCmdProcess(string command, string parameters, string workingDirPath = "")
+        public async Task<int> RunCmdProcess(string command, string parameters, string workingDirPath = "", Encoding encoding = null)
         {
             int ExitCode = 0;
             ProcessStartInfo ProcessInfo;
@@ -23,6 +23,11 @@ namespace CmdWrapper
             ProcessInfo.UseShellExecute = false;
             ProcessInfo.RedirectStandardOutput = true;
             ProcessInfo.RedirectStandardError = true;
+            if (encoding != null)
+            {
+                ProcessInfo.StandardErrorEncoding = encoding;
+                ProcessInfo.StandardOutputEncoding = encoding;
+            }
 
             if (!string.IsNullOrEmpty(workingDirPath))
             {
