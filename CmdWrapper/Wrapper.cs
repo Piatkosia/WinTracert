@@ -55,7 +55,7 @@ namespace CmdWrapper
             {
                 if (Failed != null)
                 {
-                    Failed(this, new IncommingTextEventArgs($"{e.Message}\n Command: {command} Parameters: {parameters}  Debug info: \n {e.StackTrace}"));
+                    Failed(this, new IncommingTextEventArgs($"{e.Message}\n Command: {command} Parameters: {parameters} WorkingDirPath: {workingDirPath} Debug info: \n {e.StackTrace}"));
                     return -999;
                 }
             }

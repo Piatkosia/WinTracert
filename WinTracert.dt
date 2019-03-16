@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT49.2910644S" SolutionTotalViewTime="PT29M8.1461601S" SolutionTotalDebugTime="PT11.6914922S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT8M51.814737S" SolutionTotalViewTime="PT1H9M18.2833286S" SolutionTotalDebugTime="PT11.6914922S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
@@ -7,25 +7,34 @@
   <SolutionFolder>C:\Users\piatk\Source\Repos\WinTracert</SolutionFolder>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT1M14.5514614S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT56.3957307S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\HopList.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
+      <CreatedDate>2019-02-12T19:06:08.2469024+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.4165208S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\MainWindow.xaml.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
-      <CreatedDate>2019-02-05T23:12:40.6263978+01:00</CreatedDate>
+      <CreatedDate>2019-02-12T19:06:03.8293603+01:00</CreatedDate>
       <ViewedBy>piatk</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M41.8242528S" EditActiveTime="PT2.5015719S">
-      <ModifiedDate>2019-02-05T23:14:31.3571352+01:00</ModifiedDate>
-      <ModifiedBy>piatk</ModifiedBy>
-      <EditedCount>1</EditedCount>
+    <DevTrackerDataItem ViewActiveTime="PT3M10.8015639S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
       <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
-      <CreatedDate>2019-02-05T23:12:07.8123424+01:00</CreatedDate>
+      <CreatedDate>2019-02-12T19:02:46.7703709+01:00</CreatedDate>
       <ViewedBy>piatk</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
@@ -50,6 +59,16 @@
       <CreatedDate>2018-12-15T13:24:01.5905872+01:00</CreatedDate>
       <ViewedBy>piatk</ViewedBy>
     </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT56.3847368S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\HopList.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
+      <CreatedDate>2019-02-12T19:06:08.2469024+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT4.6516503S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
@@ -70,10 +89,10 @@
       <CreatedDate>2018-12-15T13:30:42.9038779+01:00</CreatedDate>
       <ViewedBy>piatk</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M5.6048473S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT3M58.2685372S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\MainWindow.xaml.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
@@ -110,11 +129,11 @@
       <CreatedDate>2018-12-15T13:23:45.5315883+01:00</CreatedDate>
       <ViewedBy>piatk</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT19M50.4887893S" EditActiveTime="PT49.2910644S">
-      <ModifiedDate>2019-02-05T23:14:31.3571352+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT57M11.579526S" EditActiveTime="PT8M51.814737S">
+      <ModifiedDate>2019-02-07T19:32:37.6925927+01:00</ModifiedDate>
       <ModifiedBy>piatk</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>4</ViewedCount>
+      <EditedCount>4</EditedCount>
+      <ViewedCount>8</ViewedCount>
       <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
@@ -123,6 +142,78 @@
     </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT56.3877354S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\HopList.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
+      <CreatedDate>2019-02-12T19:06:08.2469024+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4.4165208S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\MainWindow.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
+      <CreatedDate>2019-02-12T19:06:03.8293603+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M10.8015639S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
+      <CreatedDate>2019-02-12T19:02:46.7703709+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M2.6274163S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
+      <CreatedDate>2019-02-07T20:58:35.6429051+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12M28.2490746S" EditActiveTime="PT1M52.4267224S">
+      <ModifiedDate>2019-02-07T19:32:37.6925927+01:00</ModifiedDate>
+      <ModifiedBy>piatk</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
+      <CreatedDate>2019-02-07T18:27:06.6388746+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M48.2471691S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\MainWindow.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\WinTracert\WinTracert.csproj</ProjectName>
+      <CreatedDate>2019-02-06T20:08:49.5241834+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT18M39.4156803S" EditActiveTime="PT6M10.0969502S">
+      <ModifiedDate>2019-02-06T22:14:36.0551464+01:00</ModifiedDate>
+      <ModifiedBy>piatk</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\Wrapper.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Users\piatk\Source\Repos\WinTracert\CmdWrapper\CmdWrapper.csproj</ProjectName>
+      <CreatedDate>2019-02-06T19:37:12.3610926+01:00</CreatedDate>
+      <ViewedBy>piatk</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT1M14.5514614S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
