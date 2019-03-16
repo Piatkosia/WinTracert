@@ -33,20 +33,32 @@ namespace CmdWrapper
             {
                 ProcessInfo.WorkingDirectory = workingDirPath;
             }
-            process = Process.Start(ProcessInfo);
-            
-            if (process != null)
+
+            try
             {
-                process.EnableRaisingEvents = true;
-                process.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-                process.ErrorDataReceived += new DataReceivedEventHandler(OutputHandler);
-                process.Exited += Process_Exited;
-                process.BeginOutputReadLine();
-                process.BeginErrorReadLine();
-                process.WaitForExit();
-                ExitCode = process.ExitCode;
-                process.Dispose();
+                process = Process.Start(ProcessInfo);
+                if (process != null)
+                {
+                    process.EnableRaisingEvents = true;
+                    process.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
+                    process.ErrorDataReceived += new DataReceivedEventHandler(OutputHandler);
+                    process.Exited += Process_Exited;
+                    process.BeginOutputReadLine();
+                    process.BeginErrorReadLine();
+                    process.WaitForExit();
+                    ExitCode = process.ExitCode;
+                    process.Dispose();
+                }
             }
+            catch (Exception e)
+            {
+                if (OnIncommingText != null)
+                {
+                    OnIncommingText(this, new IncommingTextEventArgs(e.Message));
+                }
+            }
+
+           
             return ExitCode;
         }
 
