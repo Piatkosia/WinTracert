@@ -12,6 +12,7 @@ namespace CmdWrapper
         public const int MaxCommandLength = 8191;
         public event EventHandler<IncommingTextEventArgs> OnIncommingText;
         public event EventHandler<EventArgs> Exited;
+        public event EventHandler<IncommingTextEventArgs> Failed;
         public async Task<int> RunCmdProcess(string command, string parameters, string workingDirPath = "", Encoding encoding = null)
         {
             int ExitCode = 0;
@@ -52,9 +53,10 @@ namespace CmdWrapper
             }
             catch (Exception e)
             {
-                if (OnIncommingText != null)
+                if (Failed != null)
                 {
-                    OnIncommingText(this, new IncommingTextEventArgs(e.Message));
+                    Failed(this, new IncommingTextEventArgs($"{e.Message}\n Command: {command} Parameters: {parameters}  Debug info: \n {e.StackTrace}"));
+                    return -999;
                 }
             }
 
